@@ -103,10 +103,33 @@ if (23 === "23") {
 
 ///////////////////////////////////////////////////////////////////////
 //Lecture : boolean logic and switch
+//AND(&&) => true if ALL are true
+//OR(||) => true if One is true
+//NOT(!) => inverts true/false value
 
-var age = 25;
+var age = 20;
 if (age <= 19) {
   console.log("hwan is a teenager");
+} else if (age >= 20 && age < 30) {
+  console.log("hwan is a young man");
 } else {
   console.log("hwan is a man");
+}
+
+var job = "teacher";
+
+job = prompt("What does hwan do?");
+
+switch (job) {
+  case "teacher":
+    console.log("hwan teaches kids.");
+    break;
+  case "driver":
+    console.log("hwan drives a cab in lisbon.");
+    break;
+  case "cop":
+    console.log("hwan helps fight crime.");
+    break;
+  default:
+    console.log("hwan does something else.");
 }
