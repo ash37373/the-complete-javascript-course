@@ -158,3 +158,7 @@ if (scoreHwan > scoreMike) {
 var heightMary = 158;
 var ageMary = 31;
 var scoreMary = heightMary + 5 * ageMary;
+
+if (scoreHwan > scoreMike && scoreHwan > scoreMary) {
+  console.log("Hwan wins!");
+}
