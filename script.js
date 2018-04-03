@@ -106,7 +106,7 @@ if (23 === "23") {
 //AND(&&) => true if ALL are true
 //OR(||) => true if One is true
 //NOT(!) => inverts true/false value
-
+/*
 var age = 20;
 if (age <= 19) {
   console.log("hwan is a teenager");
@@ -133,3 +133,28 @@ switch (job) {
   default:
     console.log("hwan does something else.");
 }
+*/
+
+////////////////////////////////////////////////////////////////////////
+//coding challenge 1.
+var heightHwan = 172;
+var heightMike = 165;
+var ageHwan = 33;
+var ageMike = 29;
+
+var scoreHwan = heightHwan + 5 * ageHwan;
+var scoreMike = heightMike + 5 * ageMike;
+
+/*
+if (scoreHwan > scoreMike) {
+  console.log("Hwan wins the game with " + scoreHwan + " points!");
+} else if (scoreMike > scoreHwan) {
+  console.log("Mike wins the game with " + scoreMike + " points!");
+} else if (scoreMike === scoreMike) {
+  console.log("THerer is a draw.");
+}
+*/
+
+var heightMary = 158;
+var ageMary = 31;
+var scoreMary = heightMary + 5 * ageMary;
